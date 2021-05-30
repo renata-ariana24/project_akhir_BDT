@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Tiket</title>
+        <link rel="stylesheet" href="Menu.css".css">
+    </head>
+    <body>
+        <div id="background">
+            <img id="back" src="Back-Tiket.svg">
+        </div>
+        <div id="menu">
+            <img id="burger" src="Tiket-Menu.svg">
+
+            <div id="all">
+                <ul id="menuw">
+                    <li>
+                        <div>
+                            <img  id="close" src="Close.svg">
+                        </div>
+                        <a href="index.html">
+                            <img class="button" src="Home.svg" alt="HomeButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Kereta.html">
+                            <img class="button" src="Kereta.svg" alt="KeretaButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Gerbong.html">
+                            <img class="button" src="Gerbong.svg" alt="GerbongButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Jadwal.html">
+                            <img class="button" src="Jadwal.svg" alt="JadwalButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Pesan.html">
+                            <img class="button" src="Pesan.svg" alt="PesanButton">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <table id="tabel">
+            <tr>
+                <th>NOMOR KURSI</th>
+                <th>KERETA</th>
+                <th>ASAL</th>
+                <th>TUJUAN</th>
+                <th>TANGGAL BERANGKAT</th>
+                <th>KELAS GERBONG</th>
+                <th>HARGA</th>
+                <th>STATUS</th>
+            </tr>
+        </table>
+
+        <h3>Referensi Harga</h3>
+        <table id="tabel2">
+            <tr>
+                <th>KELAS GERBONG</th>
+                <th>HARGA</th>
+            </tr>
+        </table>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Tiketjs.js"></script>
+        
+    </body>
+</html>

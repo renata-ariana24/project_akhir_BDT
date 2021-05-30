@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Jadwal</title>
+        <link rel="stylesheet" href="Menu.css".css">
+    </head>
+    <body>
+        <div id="background">
+            <img id="back2" src="JadwalBack.svg">
+        </div>
+        <div id="menu">
+            <img id="burger" src="JadwalMenu.svg">
+
+            <div id="all">
+                <ul id="menuw">
+                    <li>
+                        <div>
+                            <img  id="close" src="Close.svg">
+                        </div>
+                        <a href="index.html">
+                            <img class="button" src="Home.svg" alt="HomeButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Kereta.html">
+                            <img class="button" src="Kereta.svg" alt="KeretaButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Gerbong.html">
+                            <img class="button" src="Gerbong.svg" alt="GerbongButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Tiket.html">
+                            <img class="button" src="Tiket.svg" alt="TiketButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Pesan.html">
+                            <img class="button" src="Pesan.svg" alt="PesanButton">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <table id="tabel">
+            <tr>
+                <th>ID JADWAL</th>
+                <th>KERETA</th>
+                <th>WAKTU BERANGKAT</th>
+                <th>WAKTU TIBA</th>
+                <th>STASIUN ASAL</th>
+                <th>STASIUN TUJUAN</th>
+            </tr>
+        </table>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Jadwaljs.js"></script>
+        
+    </body>
+</html>

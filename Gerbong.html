@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Gerbong</title>
+        <link rel="stylesheet" href="Menu.css".css">
+    </head>
+    <body>
+        <div id="background">
+            <img id="back" src="Gerbong-Back.svg">
+        </div>
+        <div id="menu">
+            <img id="burger" src="GerbongMenu.svg">
+
+            <div id="all">
+                <ul id="menuw">
+                    <li>
+                        <div>
+                            <img  id="close" src="Close.svg">
+                        </div>
+                        <a href="index.html">
+                            <img class="button" src="Home.svg" alt="HomeButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Kereta.html">
+                            <img class="button" src="Kereta.svg" alt="KeretaButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Jadwal.html">
+                            <img class="button" src="Jadwal.svg" alt="JadwalButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Tiket.html">
+                            <img class="button" src="Tiket.svg" alt="TiketButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Pesan.html">
+                            <img class="button" src="Pesan.svg" alt="PesanButton">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <ul id="list"></ul>
+
+        <div id="editData">
+            <h3>Edit Gerbong</h3>
+            <h4>Tambah Gerbong</h4>
+            <p>Nomor Gerbong: <input type="number" id="nomor"></p>
+            <p>Kelas Gerbong: <input type="text" id="kelas"></p>
+            <p>Refresh setelah menambahkan data</p>
+            <button id="tambah">Tambah</button>
+        </div>
+
+        <button id="edit">
+            Edit Data
+        </button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Gerbongjs.js"></script>
+        
+    </body>
+</html>

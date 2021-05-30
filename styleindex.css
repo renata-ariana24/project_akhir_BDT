@@ -1,0 +1,58 @@
+body,section{
+    position:absolute;
+    background-color:#F5F5F5;
+}
+#HomeHead{
+    position: relative;
+    width:40%;
+    height:auto;
+    margin-left: -8vw;
+    margin-top: 10px;
+}
+
+#Back-Homepage{
+    display: absolute;
+    width: 100vw;
+    max-width:98%;
+    height:auto;
+}
+
+#ilustrasi{
+    width: 100vw;
+    position: relative;
+    object-position: left;
+}
+
+#overlay-button{
+    position: absolute;
+    top:0;
+}
+
+li{
+    position: relative;
+    align-items: center;
+    list-style-type: none;
+    cursor:pointer;
+    margin-bottom: 8px;
+}
+
+.button{
+    position: relative;
+    max-width: 20vw;
+    width: 100vw;
+    height:auto;
+    margin:auto; 
+}
+
+#about{
+    position: relative;
+    width: 100vw;
+    height:auto;
+    margin-left: -8vw;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+

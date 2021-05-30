@@ -1,0 +1,147 @@
+body{
+    background-color:#F5F5F5;
+    font: 20px "Tw Cen MT";
+    margin-bottom: 9em;
+}
+
+h3{
+    margin-top: 3em;
+    padding:12px;
+    border-radius: 30px;
+    border:black;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#back{
+    position: fixed;
+    right: 4vw;
+    max-width: 28%;
+    height: auto;
+    opacity: 45%;
+}
+#back2{
+    position: fixed;
+    right: 4vw;
+    bottom: 3vw;
+    max-width: 10rem;
+    height: auto;
+    opacity: 45%;
+}
+
+.hapus{
+    width:12px;
+    left: 1px;
+    display: none;
+}
+
+table{
+    position: relative;
+    margin-top: 4vw;
+    font: 20px "Tw Cen MT";
+    border-collapse: collapse;
+    width: 100%;
+    fill-opacity: 100%;
+}
+
+td, th {
+    fill-opacity: 100%;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ecebeb8e;
+}
+
+tr:nth-child(odd){
+    background-color: #dadada;
+}
+
+li{
+    position: relative;
+    align-items: right;
+    list-style-type:none;
+    margin-bottom: 8px;
+}
+
+button{
+    margin-top: 4vh;
+    padding:12px;
+    right:4vw;
+    border-radius: 20px;
+    background-color: rgb(133, 133, 133);
+    color:white;
+    font:15px "Tw Cen MT";
+}
+
+#pencarian{
+    display: none;
+}
+
+input{
+    font : 14px "Times New Roman";
+    padding:10px;
+    border-radius: 10px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+#menu{
+    object-position: right;
+    display:block;
+    cursor: pointer;
+}
+
+
+#burger{
+    max-width: 25vw;
+    margin-top: 10px;
+    height: auto;
+    position: relative;
+}
+
+#all{
+    display: none;
+    position:relative;
+    top:0px;
+    bottom: 3px;
+    max-width: 25vw;
+    margin:auto;
+    height:auto;
+}
+
+.button{
+    position:relative;
+    max-width: 25vw;
+    margin: auto;
+    height:auto;
+}
+
+#close{
+    top:0;
+    padding-left: 25vw;
+    max-width: 10%;
+}
+
+#list{
+    position: relative;
+}
+.krt{
+    display: block;
+    padding :1vw;
+    background-color:rgb(211, 211, 211);
+    border-radius: 120px;
+    font: 20px "Tw Cen MT";
+}
+
+.krt:nth-child(even){
+    background-color:rgb(235, 235, 235);
+}
+
+#editData{
+    display: none;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Pesan</title>
+        <link rel="stylesheet" href="Menu.css".css">
+    </head>
+    <body>
+        <div id="background">
+            <img id="back" src="PesanBack 25.svg">
+        </div>
+        <div id="menu">
+            <img id="burger" src="PesanMenu.svg">
+
+            <div id="all">
+                <ul id="menuw">
+                    <li>
+                        <div>
+                            <img  id="close" src="Close.svg">
+                        </div>
+                        <a href="index.html">
+                            <img class="button" src="Home.svg" alt="HomeButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Kereta.html">
+                            <img class="button" src="Kereta.svg" alt="KeretaButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Gerbong.html">
+                            <img class="button" src="Gerbong.svg" alt="GerbongButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Jadwal.html">
+                            <img class="button" src="Jadwal.svg" alt="JadwalButton">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Tiket.html">
+                            <img class="button" src="Tiket.svg" alt="TiketButton">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <table id="tabel">
+            <tr>
+                <th>NOMOR KURSI</th>
+                <th>KERETA</th>
+                <th>ASAL</th>
+                <th>TUJUAN</th>
+                <th>TANGGAL BERANGKAT</th>
+                <th>KELAS GERBONG</th>
+                <th>HARGA</th>
+            </tr>
+        </table>
+
+        <div id="Pesan">
+            <h4>Pesan Sekarang</h4>
+            <p>
+            <label for="notiket">Nomor Tiket  : </label>
+            <input type="text" id="notiket" >
+            </p>
+            <p>
+            <label for="nik"> NIK          : </label>
+            <input type="number" id="nik">
+            </p>
+            <p>
+            <label for=nama"> Nama         : </label>
+            <input type="text" id="nama">
+            </p>
+            <p>
+            <label for="usia"> Usia         : </label>
+            <input type="number" id="usia">
+            </p>
+            <p>
+            <label for="telp"> Telp.        : </label>
+            <input type="number" id="telp">
+            </p>
+        </div>
+
+        <button id="pesan">
+            Pesan
+        </button>
+
+        <button id="cari">
+            Cari tiket pesanan
+        </button>
+
+        <div id="pencarian">
+            <label for="tanggal"> Tanggal        : </label>
+            <input type="text" id="tgll" placeholder="22-Jan-2021">
+            <button id="tgl">Cari</button>
+            </p>
+
+            <table id="penumpang">
+                <tr>
+                    <th>
+                        No.Kursi
+                    </th>
+                    <th>
+                        Nama
+                    </th>
+                    <th>
+                        Kelas Gerbong
+                    </th>
+                    <th>
+                        Kereta
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Pesanjs.js"></script>
+        
+    </body>
+</html>

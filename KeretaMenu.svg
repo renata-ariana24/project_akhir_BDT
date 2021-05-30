@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="121" viewBox="0 0 468 121">
+<g fill="#fff" stroke="#707070" stroke-width="1"><rect width="468" height="121" rx="60.5" stroke="none"/>
+<rect x="0.5" y="0.5" width="467" height="120" rx="60" fill="none"/>
+</g>
+<text transform="translate(167 12)" fill="#707070" font-size="90" font-family="TwCenMT-Regular, Tw Cen MT">
+<tspan x="-121.838" y="77">Kereta</tspan>
+</text>
+<g transform="translate(390.6 37.771)">
+<path d="M40.458,21.729A18.729,18.729,0,1,1,21.729,3,18.729,18.729,0,0,1,40.458,21.729Z" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<path d="M18,26.983l7.492-7.492L18,12" transform="translate(3.729 2.237)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<path d="M12,18H26.983" transform="translate(2.237 3.729)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/></g></svg>
